@@ -1,0 +1,27 @@
+<svg viewBox="0 0 180 28" width="180" height="28" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#555"/>
+        <stop offset="100%" stop-color="#444"/>
+        </linearGradient>
+        <linearGradient id="rbg" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#019486"/>
+        <stop offset="100%" stop-color="#01c49a"/>
+        </linearGradient>
+        <linearGradient id="xi-grad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#8de9e5"/>
+        <stop offset="100%" stop-color="#32c4c0"/>
+        </linearGradient>
+        <clipPath id="badge-clip">
+        <rect width="180" height="28" rx="4"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#badge-clip)">
+        <rect width="46" height="28" fill="url(#lbg)"/>
+        <rect x="46" width="134" height="28" fill="url(#rbg)"/>
+        <rect width="180" height="1" fill="#fff" fill-opacity="0.12"/>
+        <rect y="27" width="180" height="1" fill="#000" fill-opacity="0.2"/>
+        <text x="23" y="19" font-family="Georgia,serif" font-size="23" font-weight="bold" fill="url(#xi-grad)" text-anchor="middle">ξ</text>
+        <text x="111" y="18.5" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="14" fill="#fff" text-anchor="middle" letter-spacing="0.3">CLI ToDo list</text>
+    </g>
+</svg>

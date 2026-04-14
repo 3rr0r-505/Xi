@@ -1,0 +1,25 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build files
+bin/
+pkg/
+
+# Go workspace
+go.work
+
+# Environment / OS
+.env
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+data/tasks.json
+
+ROADMAP.md
