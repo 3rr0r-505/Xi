@@ -1,0 +1,40 @@
+<svg width="100%" viewBox="0 0 680 220" role="img" xmlns="http://www.w3.org/2000/svg">
+    <title>ξ CLI ToDo List — README banner</title>
+    <defs>
+        <linearGradient id="bg-grad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#0f1117"/>
+        <stop offset="100%" stop-color="#161b22"/>
+        </linearGradient>
+        <linearGradient id="accent-grad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#8de9e5"/>
+        <stop offset="100%" stop-color="#32c4c0"/>
+        </linearGradient>
+        <linearGradient id="side-grad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#019486"/>
+        <stop offset="100%" stop-color="#016e64"/>
+        </linearGradient>
+        <clipPath id="banner-clip">
+        <rect width="680" height="220" rx="10"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#banner-clip)">
+        <rect width="680" height="220" fill="url(#bg-grad)"/>
+        <rect width="6" height="220" fill="url(#side-grad)"/>
+        <rect width="680" height="1" fill="#fff" fill-opacity="0.05"/>
+        <line x1="0" y1="55" x2="680" y2="55" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+        <line x1="0" y1="165" x2="680" y2="165" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+        <text x="58" y="148" font-family="Georgia, serif" font-size="110" font-weight="bold" fill="url(#accent-grad)" text-anchor="middle" opacity="0.92">Ξ</text>
+        <line x1="118" y1="40" x2="118" y2="180" stroke="#32c4c0" stroke-opacity="0.3" stroke-width="1"/>
+        <text x="148" y="98" font-family="monospace, 'Courier New'" font-size="38" font-weight="bold" fill="#e6edf3" letter-spacing="-0.5">xi</text>
+        <text x="196" y="98" font-family="monospace, 'Courier New'" font-size="38" fill="#32c4c0" letter-spacing="-0.5"> todo</text>
+        <text x="148" y="128" font-family="'DejaVu Sans', Verdana, sans-serif" font-size="14" fill="#7d8590" letter-spacing="0.3">A minimal CLI task manager for the terminal</text>
+        <rect x="148" y="148" width="58" height="20" rx="4" fill="#21262d"/>
+        <text x="177" y="162" font-family="monospace" font-size="11" fill="#8de9e5" text-anchor="middle">shell</text>
+        <rect x="214" y="148" width="58" height="20" rx="4" fill="#21262d"/>
+        <text x="243" y="162" font-family="monospace" font-size="11" fill="#8de9e5" text-anchor="middle">linux</text>
+        <rect x="280" y="148" width="62" height="20" rx="4" fill="#21262d"/>
+        <text x="311" y="162" font-family="monospace" font-size="11" fill="#8de9e5" text-anchor="middle">minimal</text>
+        <text x="148" y="196" font-family="monospace, 'Courier New'" font-size="13" fill="#32c4c0">$</text>
+        <text x="164" y="196" font-family="monospace, 'Courier New'" font-size="13" fill="#7d8590"> xi add "what's next?"</text>
+    </g>
+</svg>
