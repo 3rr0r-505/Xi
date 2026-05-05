@@ -20,7 +20,7 @@ go.work
 .vscode/
 .idea/
 
+# Additional
+.scratch/
 data/tasks.json
-
-blueprint/
-.excalidraw
+run-test.ps1
