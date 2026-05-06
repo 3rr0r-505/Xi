@@ -8,7 +8,9 @@
 ![Interface](https://img.shields.io/badge/UI-Terminal-darkgreen?logo=gnubash&logoColor=white)&nbsp;
 ![Platform](https://img.shields.io/badge/Platform-Linux-fbbf00?logo=linux&logoColor=white)&nbsp;
 ![License](https://img.shields.io/badge/License-Apache%202.0-73e4bf?logo=opensourceinitiative&logoColor=73e4bf)&nbsp;
-![Build](https://img.shields.io/badge/Build-Success-Green?logo=githubactions&logoColor=white)
+[![Build](https://img.shields.io/github/actions/workflow/status/3rr0r-505/Xi/go.yml?logo=githubactions&logoColor=white&label=Build)](https://github.com/3rr0r-505/Xi/actions/workflows/go.yml)&nbsp;
+[![CI](https://github.com/3rr0r-505/Xi/actions/workflows/go.yml/badge.svg)](https://github.com/3rr0r-505/Xi/actions/workflows/go.yml)
+
 
 **A minimal, hash-addressed CLI task manager written in Go.**
 No databases. No dependencies. Just a flat JSON file and your terminal.
