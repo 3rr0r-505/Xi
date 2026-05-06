@@ -41,17 +41,29 @@ Tasks are identified using SHA-1 hash prefixes and stored in a flat JSON structu
 **Prerequisites:** Go 1.24 or later
 
 ```bash
+go install github.com/3rr0r-505/Xi/cmd/xi@latest
+```
+
+Make sure `~/go/bin` is in your `$PATH`:
+
+```bash
+echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.zshrc && source ~/.zshrc
+```
+
+Verify:
+
+```bash
+xi --help
+```
+
+**Manual build:**
+
+```bash
 git clone https://github.com/3rr0r-505/Xi.git
 cd Xi
 go build -o bin/xi ./cmd/xi/
 chmod 755 bin/xi
-sudo cp bin/xi /usr/local/bin/
-```
-
-Verify installation:
-
-```bash
-xi --help
+cp bin/xi ~/.local/bin/
 ```
 
 ---
