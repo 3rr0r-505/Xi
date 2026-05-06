@@ -22,5 +22,3 @@ go.work
 
 # Additional
 .scratch/
-data/tasks.json
-run-test.ps1
