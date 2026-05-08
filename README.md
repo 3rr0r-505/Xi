@@ -2,8 +2,6 @@
 
 ![banner](./assets/banner.svg)
 
-<br>
-
 ![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go&logoColor=white)&nbsp;
 ![Interface](https://img.shields.io/badge/UI-Terminal-darkgreen?logo=gnubash&logoColor=white)&nbsp;
 ![Platform](https://img.shields.io/badge/Platform-Linux-fbbf00?logo=linux&logoColor=white)&nbsp;
